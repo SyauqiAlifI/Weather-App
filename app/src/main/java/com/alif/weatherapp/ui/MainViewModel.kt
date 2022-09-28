@@ -1,5 +1,7 @@
 package com.alif.weatherapp.ui
 
+import android.content.Context
+import android.content.Intent
 import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -46,7 +48,7 @@ class MainViewModel : ViewModel() {
                 }
 
                 override fun onFailure(call: Call<ForecastResponse>, t: Throwable) {
-                    TODO("Not yet implemented")
+                    Log.e("onFailure", "Failed to retrieve data")
                 }
             })
     }
@@ -64,7 +66,7 @@ class MainViewModel : ViewModel() {
             }
 
             override fun onFailure(call: Call<WeatherResponse>, t: Throwable) {
-                TODO("Not yet implemented")
+                Log.e("onFailure", "Failed to retrieve data")
             }
         })
     }
@@ -82,7 +84,7 @@ class MainViewModel : ViewModel() {
             }
 
             override fun onFailure(call: Call<ForecastResponse>, t: Throwable) {
-                TODO("Not yet implemented")
+                Log.e("onFailure", "Failed to retrieve data")
             }
         })
     }

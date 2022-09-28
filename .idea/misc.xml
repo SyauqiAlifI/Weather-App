@@ -5,6 +5,7 @@
       <map>
         <entry key="app/src/main/res/drawable/bg_icon_weather.xml" value="0.1125" />
         <entry key="app/src/main/res/drawable/ic_search.xml" value="0.1125" />
+        <entry key="app/src/main/res/layout/activity_err.xml" value="0.1234375" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.14175724637681159" />
         <entry key="app/src/main/res/layout/row_item_weather.xml" value="0.14175724637681159" />
       </map>
